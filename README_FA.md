@@ -71,32 +71,6 @@ https://t.me/proxy?server=1.2.3.4&port=443&secret=dd...
 tg://proxy?server=1.2.3.4&port=443&secret=dd... | 275.4 ms
 ```
 
-## نکته مهم درباره دقت
-
-- هیچ اسکنری نمی‌تواند ۱۰۰٪ تضمین دائمی بدهد.
-- وضعیت پراکسی‌ها لحظه‌ای تغییر می‌کند.
-- `Strict Mode` دقت را بهتر می‌کند.
-- تست MTProto در این پروژه Probe-based است (Handshake کامل کلاینت تلگرام نیست)، پس در موارد لبه ممکن است خطا وجود داشته باشد.
-
-## انتشار در گیت‌هاب
-
-قبل از Push:
-
-1. فایل واقعی `proxies.txt` را خصوصی نگه دارید (در `.gitignore` هست).
-2. فقط `proxies.sample.txt` را منتشر کنید.
-
-دستورات پیشنهادی:
-
-```bash
-git init
-git add .
-git commit -m "Initial release: Telegram Proxy Checker GUI + strict mode"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin main
-```
-
-## ساختار پروژه
 
 - `proxy_gui.py`: رابط گرافیکی اصلی
 - `telegram_proxy_checker.py`: موتور اسکن CLI
