@@ -1,0 +1,11 @@
+# MTProto (Telegram URL format)
+tg://proxy?server=1.2.3.4&port=443&secret=dd000000000000000000000000000000
+
+# MTProto (host:port:type:secret)
+1.2.3.4:443:mtproto:dd000000000000000000000000000000
+
+# SOCKS5
+1.2.3.4:1080:socks5
+
+# HTTP
+1.2.3.4:8080:http

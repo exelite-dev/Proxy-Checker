@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local proxy data (sensitive)
+proxies.txt
+
+# Generated outputs
+working.txt
+working_proxies.json
+proxies_report.csv
+proxies_report.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
