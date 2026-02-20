@@ -1,4 +1,4 @@
-# Telegram Proxy Checker (Purple UI)
+# Telegram Proxy Checker
 
 High-performance Telegram proxy checker with a modern desktop GUI.
 
